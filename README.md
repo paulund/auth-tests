@@ -11,7 +11,12 @@ This is where you can use this package to speed up that process.
 
 ```
 composer require paulund/auth-tests --dev
-php artisan make:auth-tests
+```
+
+Publish the tests
+
+```
+php artisan vendor:publish
 ```
 
 Ensure you're using a sqlite database for testing by using
