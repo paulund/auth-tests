@@ -1,20 +1,33 @@
 {
   "name": "paulund/auth-tests",
   "description": "Laravel authentication tests",
-  "type": "project",
+  "keywords": [
+    "laravel",
+    "testing"
+  ],
+  "homepage": "https://github.com/paulund/auth-tests",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Underwood",
+      "email": "paul@paulund.co.uk",
+      "homepage": "https://paulund.co.uk",
+      "role": "Developer"
+    }
+  ],
   "require": {
-    "laravel/framework": "5.5.*"
+    "laravel/framework": "~5.8.0|^6.0"
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Dappa\\AuthTests\\AuthTestsServiceProvider"
+        "Paulund\\AuthTests\\AuthTestsServiceProvider"
       ]
     }
   },
   "autoload": {
     "psr-4": {
-      "Dappa\\AuthTests\\": "src/"
+      "Paulund\\AuthTests\\": "src/"
     }
   }
 }
