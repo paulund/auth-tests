@@ -1,6 +1,6 @@
 <?php
 
-namespace Dappa\AuthTests;
+namespace Paulund\AuthTests;
 
 use Illuminate\Support\ServiceProvider;
 
